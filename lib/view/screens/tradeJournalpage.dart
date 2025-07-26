@@ -38,6 +38,7 @@ class Tradejournalpage extends StatelessWidget {
                       ],
                     ),
                   ),
+
                   Expanded(
                     child: Center(
                       child: Text(
@@ -91,6 +92,11 @@ class Tradejournalpage extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Text("Trade Details"),
                       ),
+                    ],
+                  ),
+
+                  Column(children: [
+
                     ],
                   ),
                 ],
